@@ -89,8 +89,8 @@ global.nnntt = '' //Grupo COL 3
 global.nnnttt = '' //enlace lolibot
 global.nnntttt = '' //Grupo ayuda sobre el bot
 global.bot = 'Wa.me/593979133620'
-global.asistencia = `${fb}`
-global.redes = [nna, yt, nn, md, tiktok, fb, nnn, face]
+global.asistencia = `${}`
+global.redes = []
 
 //------------------------[ Info | Datos ]---------------------------
 
