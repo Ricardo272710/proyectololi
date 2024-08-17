@@ -19,7 +19,7 @@ let name2 = conn.getName(m.sender)
 
 if (command == 'verify' || command == 'reg' || command == 'verificar') {
 if (user.registered === true) throw `*Ya esta registrados 🤨*`
-if (!Reg.test(text)) throw `*⚠️¿No saber como usar este comando?* usar de la siguiente manera: *${usedPrefix + command} nombre.edad*\n*• Ejemplo:* ${usedPrefix + command} ${name2}.16`
+if (!Reg.test(text)) throw `*⚠️¿No saber como usar este comando?* usar de la siguiente manera: *${usedPrefix + command} nombre.edad*\n*• Ejemplo:* .reg proyecto.16`
 let [_, name, splitter, age] = text.match(Reg)
 if (!name) throw '*¿Y el nombre?*'
 if (!age) throw '*la edad no puede esta vacia, agregar la edad pendejo*'
